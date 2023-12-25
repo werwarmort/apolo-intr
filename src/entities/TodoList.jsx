@@ -2,7 +2,7 @@ import { VStack } from '@chakra-ui/react';
 import { Spinner } from '@chakra-ui/react';
 
 import TodoItem from './TodoItem';
-import TotalCount from './TotalCount';
+import TotalCount from '../shared/TotalCount';
 
 const TodoList = () => {
   const todos = [];
