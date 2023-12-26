@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/apollo-intr.iml" filepath="$PROJECT_DIR$/.idea/apollo-intr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../apolo-todo/.idea/apolo-todo.iml" filepath="$PROJECT_DIR$/../apolo-todo/.idea/apolo-todo.iml" />
     </modules>
   </component>
 </project>
