@@ -10,9 +10,9 @@ import {ADD_TODO, ALL_TODO} from "../shared/apollo/todos";
 const AddTodo = () => {
     const [text, setText] = useState('');
     const [addTodo, {error}] = useMutation(ADD_TODO, {
-        refetchQueries: [
-            {query: ALL_TODO}
-        ],
+        // refetchQueries: [
+        //     {query: ALL_TODO}
+        // ],
         // задаем массив кверисов, которые надо принудительно перезагрузить
         // получается что заново получаем все тудушки. Это не всегда полезно, скорее это даже искоючение
 
